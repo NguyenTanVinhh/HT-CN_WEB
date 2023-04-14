@@ -1,0 +1,128 @@
+
+*{ width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    
+}.wrapper{
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}header{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}main{
+    width: 100%;
+    min-height:auto ;
+
+}.nav{
+    background: red;
+    display: flex;
+    width: 100% ;
+    height: 440px;
+   justify-content: center;
+}
+.content{
+    display: flex;
+    /* border: 1px solid rgb(131, 15, 232); */
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    /* padding: 10px;    */
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}#abc{
+    display: flex;
+    /* border: 1px solid #000; */
+    min-height: 250px;
+    min-width: 90%;
+    flex-basis: auto;
+    padding: 0 10px 0 10px;
+    /* margin: 3px; */
+}#bigsale{
+    border: 1px solid #000;
+    list-style: none;
+    display:block;
+    background: rgb(245, 173, 173);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+}#bigsale img {
+    /* border: 5px solid red; */
+    margin: 10px ;
+    mask-size: 2px;  
+}.name a{
+        font-weight: bold;
+        margin: 10px 0;
+        text-decoration: none;
+        color: black;
+}.name a:hover {
+    text-decoration: underline; 
+}.price a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}.price a:hover {
+    text-decoration: underline; 
+}.star{
+    
+    color: yellow;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+}
+#footer{
+    background-color: black;
+    width: 1500px;
+    height: 455px;
+    color: #ebe3e3;
+
+}.top-footer{   
+    display:inline-flex;
+    width: 1000px;
+    height: 305px;
+    margin-top: 10px;padding-left: 225px ; 
+    text-decoration: none; 
+}.bottom-footer{
+    
+    border-top: px solid white; 
+    width: 1000px;
+    height: 150px;
+    padding-top: 10px;margin-top: 10px;
+    text-align:  center;
+}#a1{
+    text-align: justify;
+    width: 20%;
+    height: 100%;
+}#a2{ 
+    
+    width: 15%;
+    height: 100%;
+}#a3{
+    width: 25%;
+    height: 100%;
+   
+}#a4 { 
+    width: 25%;
+    height: 100%;
+    
+}ul{
+    list-style-type: none ;
+}.MXH{
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+    display: inline-flex;
+}.DMCA{
+     margin:auto;
+     padding: 10px 0 10px 0; 
+}#a2 a{
+    color: white;
+    text-decoration: none;
+}#a3 a{
+    color: white;
+    text-decoration: none;
+}#a2 a:hover {
+    text-decoration: underline; 
+}#a3 a:hover { 
+    text-decoration: underline; }
