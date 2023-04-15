@@ -44,10 +44,10 @@
 }#bigsale{
     border: 1px solid #000;
     list-style: none;
-    display:block;
+    
     background: rgb(245, 173, 173);
     color: #fff;
-    padding: 5px 5px 5px 5px;
+    /* padding: 5px 5px 5px 5px; */
     margin: auto;
 }#bigsale img {
     /* border: 5px solid red; */
@@ -67,10 +67,13 @@
 }.price a:hover {
     text-decoration: underline; 
 }.star{
-    
+    display:  flex;
     color: yellow;
     font-weight: bold;
-    padding: 0 5px 0 5px;
+    padding: 0 5px 0 5px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
 #footer{
     background-color: black;
